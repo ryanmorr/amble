@@ -1,6 +1,6 @@
 {
   "name": "@ryanmorr/amble",
-  "description": "A tiny and crude CSS lexer and walker",
+  "description": "A stupid simple CSS lexer and walker",
   "version": "0.1.0",
   "license": "Unlicense",
   "author": "Ryan Morr",
