@@ -57,7 +57,7 @@ This project is dedicated to the public domain as described by the [Unlicense](h
 
 [project-url]: https://github.com/ryanmorr/amble
 [version-image]: https://img.shields.io/github/package-json/v/ryanmorr/amble?color=blue&style=flat-square
-[build-url]: https://travis-ci.com/github/ryanmorr/amble
-[build-image]: https://img.shields.io/travis/com/ryanmorr/amble?style=flat-square
+[build-url]: https://github.com/ryanmorr/amble/actions
+[build-image]: https://img.shields.io/github/actions/workflow/status/ryanmorr/amble/node.js.yml?style=flat-square
 [license-image]: https://img.shields.io/github/license/ryanmorr/amble?color=blue&style=flat-square
 [license-url]: UNLICENSE
