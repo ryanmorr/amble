@@ -7,13 +7,27 @@
   "homepage": "https://github.com/ryanmorr/amble",
   "repository": "github:ryanmorr/amble",
   "bugs": "https://github.com/ryanmorr/amble/issues",
-  "publishConfig": {
-    "access": "public"
-  },
+  "keywords": [
+    "javascript",
+    "css",
+    "css-parser",
+    "lexer",
+    "walker"
+  ],
   "type": "module",
-  "main": "dist/amble.cjs.js",
-  "module": "dist/amble.esm.js",
-  "browser": "dist/amble.umd.js",
+  "main": "dist/cjs/amble.js",
+  "module": "dist/esm/amble.js",
+  "browser": "dist/umd/amble.js",
+  "exports": {
+    ".": {
+      "browser": "./dist/umd/amble.js",
+      "import": "./dist/esm/amble.js",
+      "require": "./dist/cjs/amble.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "lint": "eslint src/** test/specs/**",
     "test": "mocha test/specs/**/*.js --reporter spec",
@@ -27,6 +41,7 @@
     "eslint": "^8.33.0",
     "mocha": "^10.2.0",
     "rollup": "^3.14.0",
+    "rollup-plugin-generate-package-json": "^3.2.0",
     "sinon": "^15.0.1",
     "terser": "^5.16.3"
   }
