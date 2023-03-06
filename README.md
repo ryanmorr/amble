@@ -8,7 +8,7 @@
 
 ## Install
 
-Download the [CJS](https://github.com/ryanmorr/amble/raw/master/dist/amble.cjs.js), [ESM](https://github.com/ryanmorr/amble/raw/master/dist/amble.esm.js), [UMD](https://github.com/ryanmorr/amble/raw/master/dist/amble.umd.js) versions or install via NPM:
+Download the [CJS](https://github.com/ryanmorr/amble/raw/master/dist/cjs/amble.js), [ESM](https://github.com/ryanmorr/amble/raw/master/dist/esm/amble.js), [UMD](https://github.com/ryanmorr/amble/raw/master/dist/umd/amble.js) versions or install via NPM:
 
 ```sh
 npm install @ryanmorr/amble
