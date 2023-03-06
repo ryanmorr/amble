@@ -1,2 +1,2 @@
-/*! @ryanmorr/amble v0.1.1 | https://github.com/ryanmorr/amble */
+/*! @ryanmorr/amble v0.1.2 | https://github.com/ryanmorr/amble */
 !function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n(exports):"function"==typeof define&&define.amd?define(["exports"],n):n((e="undefined"!=typeof globalThis?globalThis:e||self).amble={})}(this,(function(e){"use strict";const n=/([^{};]*)([;{}])/g,t=/(\r\n|\r|\n)+/g,l=/\t/g,o=/\s{2,}/g,r=/\/\*[\W\w]*?\*\//g,c=/\s*([:;{}])\s*/g,f=/\};+/g,i=/([^:;{}])}/g;e.walk=function(e,p){e=function(e){return e.replace(t," ").replace(l," ").replace(o," ").replace(r,"").trim().replace(c,"$1").replace(f,"}").replace(i,"$1;}")}(e),n.lastIndex=0;for(let t;null!=(t=n.exec(e));)p(t[1],t[2])}}));
