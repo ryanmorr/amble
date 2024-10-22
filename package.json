@@ -5,7 +5,10 @@
   "license": "Unlicense",
   "author": "Ryan Morr",
   "homepage": "https://github.com/ryanmorr/amble",
-  "repository": "github:ryanmorr/amble",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanmorr/amble.git"
+  },
   "bugs": "https://github.com/ryanmorr/amble/issues",
   "keywords": [
     "javascript",
